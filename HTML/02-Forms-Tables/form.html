@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="resultados.html" method="get">
+        <!-- 
+            - El method POST es para cuando tiene que cargar en un servidor externo.
+         -->
+        <div>
+        <label for="username">Username</label>
+        <!-- Label = Etiquetas -->
+        <input type="text" name="username" id="username" required/>
+        </div>
+        <label for="Comentarios"></label>
+        <br>
+        
+        <div>
+            <br>
+            <label for="password">Password</label>
+        <input type="password" name="password" id="password" required/>
+        <br>
+        </div>
+        <br>
+        <div>
+        <label for="edad">¿Cuál es tu edad?</label>
+        <input type="number" name="edad" id="edad" min="0" max="100">
+        </div>
+        <br>
+        <div>
+            <label for="nacimiento">¿Cuando naciste?</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            </div>
+        <br>
+        <div>
+            <label for="email">¿Cuál es tu email?</label>
+            <input type="email" name="email" id="email">
+            </div>
+        <BR></BR>
+        <label>Comentarios
+            <textarea name="Comentarios" id="Comentarios" cols="30" rows="3"></textarea>
+        </label>
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+
+
+
+</html>
