@@ -1,0 +1,28 @@
+h1 {
+    color: blueviolet; 
+}
+p {
+    color: blue;
+    font-size: 16pt;
+}
+/* Esto es para darle un estilo a un ID en específico */
+#primeranoticia {
+color: brown;    
+}
+
+#segundanoticia{
+    color: greenyellow;
+}
+
+/* Esto es para darle un estilo a una clase en espeecífico.
+UTILIZANDO LA COMA PUEDES NOMBRAR VARIAS CLASES */
+.encabezado{
+    text-transform: uppercase;
+}
+
+/* El asterisco es para TODOS LOS ELEMENTOS */
+* {
+    color: aliceblue;
+}
+
+
