@@ -1,0 +1,11 @@
+.p-id {
+    color: blue;
+}
+
+.h1-class{
+    color: yellow;
+}
+p {
+    color: red !important;
+    /* Esto es para superponer este estilo frente a otros. Es el más específico */
+}
