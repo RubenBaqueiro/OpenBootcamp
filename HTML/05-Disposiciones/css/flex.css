@@ -1,0 +1,32 @@
+/* https://codepen.io/enxaneta/pen/adLPwv */
+.flex{
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* Se redimensiona al cambiar el tamaño de la pestaña */
+    justify-content: space-around;
+    /* Mantiene el tamaño de los contenedores y se van adaptando al tamño de la pestaña */
+    flex-wrap: wrap;
+/* Esto es para el tamaño de los contenedores en funcion del contenido */
+    /* align-items: ; */
+}
+
+.contenido-1{
+    background-color: white;
+    height: 150px;
+    width: 100px; 
+    border: 1px solid blue;
+    align-items: center;
+}
+.contenido-2{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}

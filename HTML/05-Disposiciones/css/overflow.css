@@ -1,0 +1,30 @@
+.contenedor-hidden{
+background-color: rgb(255, 215, 196);
+width: 300px;
+height: 100px;
+padding: 15px;
+overflow: hidden;
+/* overflow x and overflow y para ponerlo en el eje q quieras */
+}
+.contenedor-scroll{
+    background-color: rgb(255, 215, 196);
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+    }
+
+    .contenedor-visible{
+        background-color: rgb(255, 215, 196);
+        width: 300px;
+        height: 100px;
+        padding: 15px;
+        overflow:visible ;
+        }
+        .contenedor-auto{
+            background-color: rgb(255, 215, 196);
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            overflow:auto;
+            }

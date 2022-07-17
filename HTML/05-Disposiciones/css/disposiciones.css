@@ -1,0 +1,20 @@
+.div-1,.div-2{
+    background-color: rgb(235, 184, 19);
+    /* por defecto display: block */
+}
+.img{
+    height: 50px;
+    width: 70px;
+    /* por defecto display: inline-block */
+}
+.span-1,.span-2{
+    background-color: blueviolet;
+    /* Por defecto display:inline */
+}
+.span-2{
+    background-color: blueviolet;
+    /* Por defecto display:inline */
+    float: right;
+    /* float es para los elementos inline */
+}
+
