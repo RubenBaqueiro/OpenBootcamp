@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+    margin: 0px;
+}
+
+
+.escenario-1{
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.escenario-2{
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+}
+
+/* Unidad fija, siempre van a ser 200px */
+.px{
+    background-color: green;
+    width: 200px;
+}
+
+/* Porcentaje en relacion a su elemento principal */
+.porcentaje{
+    background-color: red;
+    width: 50%;
+}
+/* Esto es en funcion de la pantalla */
+.view{
+    background-color: yellow;
+    width: 50vw;
+}

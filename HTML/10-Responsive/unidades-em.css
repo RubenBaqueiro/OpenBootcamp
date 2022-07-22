@@ -1,0 +1,18 @@
+.escenario{
+    border: 1px solid #333;
+    padding: 10px;
+}
+.escenario-1{
+    font-size: 32px;
+}
+.escenario-2{
+    font-size: 16px;
+}
+/* Hace referencia al tamaño de fuente de su contenedor */
+.em{
+    font-size: 2em;
+}
+/* Hace referencia al tamaño de fuente de la raiz,es decir, del documento html */
+.rem{
+    font-size: 2rem;
+}

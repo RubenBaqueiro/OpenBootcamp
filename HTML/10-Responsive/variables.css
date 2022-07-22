@@ -1,0 +1,9 @@
+:root{
+    --color-principal: red;
+    --ancho-principal: 250px;
+}
+
+.titulo {
+    color: var(--color-principal);
+}
+
